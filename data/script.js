@@ -92,7 +92,7 @@ var botella = [
         aroma:"Mezcla aromática a roble, cacao, hoja de tabaco, ciruelas, moras, grosella, frutos rojos, menta y pimienta.",
         maridaje:"Disfrutar con platillos italianos como pasta al pomodoro y pizzas ligeras, así como en salsas suaves, hamburguesas y tablas de quesos maduros.",
         gusto:"Dulzor 3/5, Acidez 3/5, Cuerpo 4/5, Alcohol 4/5, Taninos 3/5. ",
-        origen:"Valle de las Arsinas, Zacatecas, México."
+        origen:"Valle de las Arcinas, Zacatecas, México."
       },
       {
         nombre: "Cabernet Franc",
@@ -102,8 +102,8 @@ var botella = [
         uva:"Cabernet Franc.",
         aroma:"Mezcla aromática a romero, cuero, anis, cafe, mora azul, zarzamora, frutos rojos y levadura.",
         maridaje:"Disfrutar con platillos especiados como pasta al pesto o sirloin al romero. Asimismo marida con botanas como anchoas, angulas, alubias y pimientos.",
-        gusto:"Dulsor 3/5, Acidez 4/5, Cuerpo 3/5, Alcohol 3/5, Taninos 4/5. ",
-        origen:"Valle de las Arsinas, Zacatecas, México."
+        gusto:"Dulzor 3/5, Acidez 4/5, Cuerpo 3/5, Alcohol 3/5, Taninos 4/5. ",
+        origen:"Valle de las Arcinas, Zacatecas, México."
       },
       {
         nombre: "Viognier",
@@ -113,8 +113,8 @@ var botella = [
         uva:"Viognier.",
         aroma:"Mezcla aromática a gardenia, nectar, manzana verde, toronja, pera y piña.",
         maridaje:"Disfrutar con platillos que armonicen con su acidez como platillos mexicanos de mar con cítricos, tiraditos y ceviches. Apto para degustarse solo.",
-        gusto:"Dulsor 3/5, Acidez 4/5, Cuerpo 4/5, Alcohol 3/5.",
-        origen:"Valle de las Arsinas, Zacatecas, México."
+        gusto:"Dulzor 3/5, Acidez 4/5, Cuerpo 4/5, Alcohol 3/5.",
+        origen:"Valle de las Arcinas, Zacatecas, México."
       },
     ],
     [//Tierra Adentro
@@ -125,7 +125,7 @@ var botella = [
         flag: true,
         uva:"Syrah(50%), Merlot(40%) y Tempranillo(10%).",
         aroma:"Intensidad aromática bien marcada de frutos maduros, cacao, vainilla y toques ahumados.",
-        maridaje:"Su sólida estructura, le permite acompañar las carnes rojas, el cabrito, el cordero, las pastas, los quesos y evidentemente a la comida mexicana.",
+        maridaje:"Su sólida estructura le permite acompañar las carnes rojas, el cabrito, el cordero, las pastas, los quesos y evidentemente a la comida mexicana.",
         gusto:"Se pueden percibir los taninos maduros y bien ensamblados, acidez amalgamada con un final largo y claro. Se identifica su percepción olfativa, reflejando la combinación de los frutos frescos y la solidez de su vivaz estructura, vino capaz de aun evolucionar muy bien durante los próximos 3 a 7 años.",
         origen:"Campo Real, Zacatecas, México."
       },
@@ -136,7 +136,7 @@ var botella = [
         flag: true,
         uva:"Syrah(50%), Merlot(40%) y Tempranillo(10%).",
         aroma:"Intensidad aromática bien marcada de frutos maduros, cacao, vainilla y toques ahumados.",
-        maridaje:"Su sólida estructura, le permite acompañar las carnes rojas, el cabrito, el cordero, las pastas, los quesos y evidentemente a la comida mexicana.",
+        maridaje:"Su sólida estructura le permite acompañar las carnes rojas, el cabrito, el cordero, las pastas, los quesos y evidentemente a la comida mexicana.",
         gusto:"Se pueden percibir los taninos maduros y bien ensamblados, acidez amalgamada con un final largo y claro. Se identifica su percepción olfativa, reflejando la combinación de los frutos frescos y la solidez de su vivaz estructura, vino capaz de aun evolucionar muy bien durante los próximos 3 a 7 años.",
         origen:"Campo Real, Zacatecas, México."
       },
@@ -168,8 +168,8 @@ var botella = [
         precioB: "$350.00",
         flag: true,
         uva:"Merlot.",
-        aroma:"Con un aroma franco e intenso, se perciben en el los frutos rojos maduros, coco, vainilla y pimientos verdes.",
-        maridaje:"Su sólida estructura, le permite acompañar las carnes rojas, cabrito y cordero, pollo a la ciruela, pastas en base de hongos.",
+        aroma:"Con un aroma franco e intenso, se perciben en él los frutos rojos maduros, coco, vainilla y pimientos verdes.",
+        maridaje:"Su sólida estructura le permite acompañar las carnes rojas, cabrito y cordero, pollo a la ciruela, pastas en base de hongos.",
         gusto:"Ataque suave, acidez balanceada, presencia de frutos rojos maduros, vainilla, notas balsámicas como el mentol.",
         origen:"Campo Real, Zacatecas, México."
       },
@@ -213,8 +213,8 @@ var botella = [
         flag: true,
         uva:"Malbec, Cabernet Suavignon.",
         aroma:"Aroma franco e intenso, se perciben los frutos rojos, grosellas, moras y se aprecian los frutos secos tales como almendras y nueces. Se percibe un fino bouquet con notas de roble, cacao, vainilla, café tostado, caramelo y tabaco.",
-        maridaje:"Su sólida estructura, le permite acompañar las carnes rojas, el cabrito y el cordero, las pastas, los quesos y decididamente a la comida mexicana.",
-        gusto:"Se consolida la apreciación olfativa y resalta en el paladar, una sensación cálida, acidez suave, con taninos sedosos y aterciopelados. Bien definidos, con una textura noble, tersa y evolucionada se perciben los frutos secos, roble, café tostado, tabaco, cacao, y caramelo que se mesclan de manera sencilla y vigorosa. Es un vino equilibrado, con un retrogusto largo y agradable. Su un potencial de guarda es de un mínimo de 7 años.",
+        maridaje:"Su sólida estructura le permite acompañar las carnes rojas, el cabrito y el cordero, las pastas, los quesos y decididamente a la comida mexicana.",
+        gusto:"Se consolida la apreciación olfativa y resalta en el paladar, una sensación cálida, acidez suave, con taninos sedosos y aterciopelados. Bien definidos, con una textura noble, tersa y evolucionada se perciben los frutos secos, roble, café tostado, tabaco, cacao, y caramelo que se mezclan de manera sencilla y vigorosa. Es un vino equilibrado, con un retro gusto largo y agradable. Su un potencial de guarda es de un mínimo de 7 años.",
         origen:"Campo Real, Zacatecas, México."
       },
       {
@@ -225,22 +225,11 @@ var botella = [
         uva:"Merlot.",
         aroma:"Aromas de carácter frutal con notas a durazno, miel y flores blancas. Equilibrado, armonioso, que aporta frescura llena de fruta con persistencia y volumen fácil de beber y con un amplio espectro de maridaje. Estamos comprometidos con el consumo responsable de alcohol: está prohibida su venta a menores de edad.",
         maridaje:"Ensalada o entradas de betabel, pescados, mariscos y platillos confitados o caramelizados, platillos mexicanos como chalupas en salsa verde y postres.",
-        gusto:"Equilibrado, armonioso, que aporta frescura, llena de fruta la boca con presistencia y volumen, fácil de beber y con un amplio espectro de maridaje.",
+        gusto:"Equilibrado, armonioso, que aporta frescura, llena de fruta la boca con persistencia y volumen, fácil de beber y con un amplio espectro de maridaje.",
         origen:"Campo Real, Zacatecas, México."
       }
     ],
     [//Viento Negro
-      {
-        nombre: "Viento negro",
-        precioA: "$600.00",
-        precioB: "no",
-        flag: true,
-        uva:"Cabernet Sauvinong, Cabernet Franc y Merlot.",
-        aroma:"Una mezcla de frutos rojos y negros; cerezas y ciruelas, y ligeros toques de roble tostado, serán base aromática de este ensamble. ",
-        maridaje:"Pastas con salsa de tomate, quesos semi-maduros, carnes magras y adobados.",
-        gusto:"Textura amable y delicada. Acidez media, una gran nota de mentoles y frescura te harán querer probar más.",
-        origen:"Zacatecas, México."
-      },
       {
         nombre: "Oak Reserve",
         precioA: "$600.00",
@@ -250,7 +239,18 @@ var botella = [
         aroma:"Una mezcla de frutos rojos y negros; cerezas y ciruelas, y ligeros toques de roble tostado, serán base aromática de este ensamble.",
         maridaje:"Carnes potentes en sabor y estructura, postres a base de chocolate, quesos maduros y moles.",
         gusto:"Textura amable y delicada. Acidez media, una gran nota de mentoles y frescura te harán querer probar más.",
-        origen:"Zacatecas, México."
+        origen:"Valle de las Arcinas, Zacatecas, México."
+      },
+      {
+        nombre: "Viento Negro",
+        precioA: "$600.00",
+        precioB: "no",
+        flag: true,
+        uva:"Cabernet Sauvinong, Cabernet Franc y Merlot.",
+        aroma:"Una mezcla de frutos rojos y negros; cerezas y ciruelas, y ligeros toques de roble tostado, serán base aromática de este ensamble. ",
+        maridaje:"Pastas con salsa de tomate, quesos semi-maduros, carnes magras y adobados.",
+        gusto:"Textura amable y delicada. Acidez media, una gran nota de mentoles y frescura te harán querer probar más.",
+        origen:"Valle de las Arcinas, Zacatecas, México."
       }
     ]
   ],
@@ -264,7 +264,7 @@ var botella = [
           aroma:"Aroma a frutos rojos como moras, cerezas y ciruelas, mezclados con vainilla y chocolate amargo.",
           maridaje:"Ideal para tomar solo o acompañar con carne asada, quesos suaves, tacos y pizza.",
           gusto:"Fresco y vivaz, reafirmando los frutos rojos en la boca, con final medio, agradable al paladar. ",
-          origen:"Valle de Guadalupe, Baja california, México."
+          origen:"Valle de Guadalupe, Baja California, México."
         },
         {
           nombre: "Domecq XA 1/2",
@@ -275,7 +275,7 @@ var botella = [
           aroma:"Aroma a frutos rojos como moras, cerezas y ciruelas, mezclados con vainilla y chocolate amargo.",
           maridaje:"Ideal para tomar solo o acompañar con carne asada, quesos suaves, tacos y pizza.",
           gusto:"Fresco y vivaz, reafirmando los frutos rojos en la boca, con final medio, agradable al paladar. ",
-          origen:"Valle de Guadalupe, Baja california, México."
+          origen:"Valle de Guadalupe, Baja California, México."
         },
         {
           nombre: "La Cetto Cabernet",
@@ -284,9 +284,9 @@ var botella = [
           flag: true,
           uva:"Cabernet Sauvignon.",
           aroma:"Aromas florales, frutos rojos maduros y fondo de notas especiadas.",
-          maridaje:"Excelente para acompañar carnes rojas al carbón, a la parrilla o al horno con coccion prolongada, algunos quesos maduros y/o ahumados.",
+          maridaje:"Excelente para acompañar carnes rojas al carbón, a la parrilla o al horno con cocción prolongada, algunos quesos maduros y/o ahumados.",
           gusto:"Sus taninos son maduros y le otorgan suavidad que contrasta con su complejidad.",
-          origen:"Valle de Guadalupe, Baja california, México."
+          origen:"Valle de Guadalupe, Baja California, México."
         },
         {
           nombre: "La Cetto Nebiolo",
@@ -295,9 +295,9 @@ var botella = [
           flag: true,
           uva:"Nebiolo.",
           aroma:"Aromas complejos a frutos rojos y negros maduros donde destaca el higo y la cereza negra, se perciben aromas a trufa, especias y notas ahumadas.",
-          maridaje:"Gastronomía mexicana e italiana, cortes grasos, pastas con salseo especiado.",
+          maridaje:"Gastronomía mexicana e italiana, cortes grasos, pastas con salsas especiadas.",
           gusto:" Intenso, complejo, frutal y especiado.",
-          origen:"Valle de Guadalupe, Baja california, México."
+          origen:"Valle de Guadalupe, Baja California, México."
         },
         {
           nombre: "Casa Madero Merlot",
@@ -307,7 +307,7 @@ var botella = [
           uva:"Merlot.",
           aroma:"Fresco y complejo con aromas de frutos rojos, bayas negras y flores. Destacan los aromas de rosas rojas, violetas, ciruelas, fresas, nueces y cacao.",
           maridaje:"Enchiladas queretanas, sopa de tortilla, rajas con queso, torta de roast beef, pizza y tacos de cecina.",
-          gusto:"Ataque placentero y sedoso, confirmando los aromas frutales, cacao, madera y rosas.Final agradable, terso y completo.",
+          gusto:"Ataque placentero y sedoso, confirmando los aromas frutales, cacao, madera y rosas. Final agradable, terso y completo.",
           origen:"Valle de Parras, Coahuila, México."
         },
         {
@@ -316,7 +316,7 @@ var botella = [
           precioB: "no",
           flag: true,
           uva:"Shiraz.",
-          aroma:"Aromas intensos de frutas rojas maduras.Jamaica, violetas, chocolate, maderas finas, nueces tostadas y especias como clavo y vainilla.",
+          aroma:"Aromas intensos de frutas rojas maduras. Jamaica, violetas, chocolate, maderas finas, nueces tostadas y especias como clavo y vainilla.",
           maridaje:"Enmoladas rellenas de pato, asado de bodas, conejo en adobo y tampiqueña.",
           gusto:"De cuerpo medio y jugoso. Confirma sus aromas frutales, especialmente higos, ciruela, granada, con un toque fresco de eucalipto, así como de bosque y especias con un final persistente.",
           origen:"Valle de Parras, Coahuila, México."
@@ -361,8 +361,8 @@ var botella = [
           flag: true,
           uva:"Cabernet Sauvignon y Merlot.",
           aroma:"En nariz es goloso y frutal como ciruela, zarzamora, cereza, acompañado de vainilla, chocolate, cedro y pimienta.",
-          maridaje:"Lechon en mole negro, briquet tatemado, pasta trufada.",
-          gusto:"En boca es maduro y con carácter frutal, destacado por su estructura cremosa, acompañado de una buena acidez, permitiendonos tener un vino de guarda.",
+          maridaje:"Lechón en mole negro, briquet tatemado, pasta trufada.",
+          gusto:"En boca es maduro y con carácter frutal, destacado por su estructura cremosa, acompañado de una buena acidez, permitiéndonos tener un vino de guarda.",
           origen:"Valle de Santo Tomás, Baja California, México."
         },
         {
@@ -384,7 +384,7 @@ var botella = [
         precioB: "$250.00",
         flag: true,
         uva:"Malbec.",
-        aroma:"roma de fruta rojas escarchadas tales como ciruelas y grosellas, con toque de regaliz y pimienta negra. Se hace notar también un recuerdo de violetas y tierra mojada.",
+        aroma:"Aroma a frutos rojos escarchados tales como ciruelas y grosellas, con toque de regaliz y pimienta negra. Se hace notar también un recuerdo de violetas y tierra mojada.",
         maridaje:"Armoniza muy bien con platillos de carnes rojas ligeramente condimentadas, a la parrilla o guisadas, cerdo asado, pavo, pollo, nopales a las brasas, comida mexicana como y quesos semicurados.",
         gusto:"Buen balance. Delicadas notas especiadas. Taninos de textura muy fina y de carácter dulce ya maduros. Buena concentración, acidez fresca y densidad general media, con amplio y armonioso final.",
         origen:"Mendoza, Argentina."
@@ -395,9 +395,9 @@ var botella = [
           precioB: "no",
           flag: true,
           uva:"	Pinot Noir.",
-          aroma:"Presenta Frutos Rojos Como Fresas, Frambuesas Y Cerezas.",
-          maridaje:"Pasta, Pizza, Quesos Suaves, Carnes Ligeras.",
-          gusto:"En Boca Es Frutal, Fresco, Facil De Beber.",
+          aroma:"Presenta frutos rojos como fresas, frambuesas y cerezas.",
+          maridaje:"Pasta, pizza, quesos suaves, carnes ligeras.",
+          gusto:"En boca es frutal, fresco, facil de beber.",
           origen:"Mendoza, Argentina."
       },
       {
@@ -440,7 +440,7 @@ var botella = [
           flag: true,
           uva:"Malbec.",
           aroma:"Aromas de violetas, cerezas negras y ciruelas, pimienta negra y cacao.",
-          maridaje:"Lomo, ratatouile mediterráneo, tarta de chocolate semiamargo y helado de mascarpone con frutos rojos.",
+          maridaje:"Lomo, ratatouille mediterráneo, tarta de chocolate semiamargo y helado de mascarpone con frutos rojos.",
           gusto:"Entrada dulce y jugosa revela fineza, taninos delicados y un elegante final de frutos negros.",
           origen:"Valle de Uco, Mendoza, Argentina."
       }
@@ -448,7 +448,7 @@ var botella = [
   [//Chilenos
       {
           nombre: "Concha y Toro",
-          precioA: "$1,308.00",
+          precioA: "$366.00",
           precioB: "$95.00",
           flag: true,
           uva:"Cabernet Sauvignon.",
@@ -465,7 +465,7 @@ var botella = [
           uva:"Cabernet Sauvignon.",
           aroma:"Delata aromas delicados con tonos afrutados y levemente especiados, complejo, con matices florales, vainilla y sotobosque.",
           maridaje:"Se recomienda acompañar con carnes rojas.",
-          gusto:"Expresivo en nariz con aromas a cassis y grosella negra.",
+          gusto:"Expresivo en nariz con aroma a grosella negra.",
           origen:"Valle Central, Chile."
       },
       {
@@ -507,7 +507,7 @@ var botella = [
           precioB: "no",
           flag: true,
           uva:"Merlot.",
-          aroma:"Suave y delicada que nos recuerdan aromas a berries, resaltando moras y frambuesas maduras con algo de ciruelas negras para luego dar paso a pequeños toques de casís y finalizar con delicadas especias y romero.",
+          aroma:"Suave y delicada que nos recuerdan aromas a berries, resaltando moras y frambuesas maduras con algo de ciruelas negras y finalizar con delicadas especias y romero.",
           maridaje:"Se recomienda acompañar con ensaladas estilo césar, aves, pizzas, carnes rojas livianas, pastas e incluso pescados.",
           gusto:"Textura suave, amable y sedoso, de acidez media, con notas de frambuesas y cerezas maduras.",
           origen:"Valle del Maipo, Chile."
@@ -534,7 +534,7 @@ var botella = [
           aroma:"Notas de frutos maduros, con elegantes tonos de madera y especias.",
           maridaje:"Ideal para platillos agridulces, pimientos rellenos y comida oriental.",
           gusto:"De carácter cálido en boca, serio y profundo.",
-          origen:"Pimientos rellenos, carne con especias y salsas agridulces."
+          origen:"Aragón, España."
       },    {
           nombre: "Sangre de Toro 1/2",
           precioA: "$363.00",
@@ -544,7 +544,7 @@ var botella = [
           aroma:"Notas de frutos maduros, con elegantes tonos de madera y especias.",
           maridaje:"Ideal para platillos agridulces, pimientos rellenos y comida oriental.",
           gusto:"De carácter cálido en boca, serio y profundo.",
-          origen:"Pimientos rellenos, carne con especias y salsas agridulces."
+          origen:"Aragón, España."
       },    {
           nombre: "Atrium",
           precioA: "$1,080.00",
@@ -554,7 +554,7 @@ var botella = [
           aroma:"Aroma frutal (confitura de moras) con un matiz elegante y singular que recuerda a la corteza de naranja.",
           maridaje:"Perfecto con ternera, el cerdo o el pato salvaje. También puede acompañar pescados a la plancha o al horno.",
           gusto:"Es redondo, pleno, con un tanino muy fino y perfumado.",
-          origen:""
+          origen:"Vilafranca del Penedès, Barcelona, España."
       },    {
           nombre: "La Planta",
           precioA: "$1,170.00",
@@ -593,8 +593,8 @@ var botella = [
           uva:"Cabernet Sauvignon.",
           aroma:"Aromas intensos, notas de arándanos confitados y cerezas, tiene aroma de trufa, ligeras especias y hierbas de olor.",
           maridaje:"Carne de caza, quesos maduros, quesos de oveja, cordero con salsa de morillas, embutidos, lechón, papa al horno y roast beef.",
-          gusto:"Elegante con postgusto prolongado y taninos suaves y presentes, excelente acidez, redondo y con perfecta expresión en boca.",
-          origen:"Penedes, España."
+          gusto:"Elegante con gusto prolongado y taninos suaves y presentes, excelente acidez, redondo y con perfecta expresión en boca.",
+          origen:"Vilafranca del Penedès, Barcelona, España."
       },
   ],
   [//Franceses
@@ -605,7 +605,7 @@ var botella = [
       flag: true,
       uva:"Chardonnay, Pinot Meunier, Pinot Noir.",
       aroma:"Intensidad vibrante de manzana verde, cítricos y matices minerales y florales. Aromas delicadamente vinosos, con toques de tilo y flor de vid.",
-      maridaje:"Este champagne se erige como compañero ideal para aperitivos, ostras, mariscos o quesos de pasta blanda. Su versatilidad en maridajes lo convierte en un invitado bienvenido en cualquier ocasión.",
+      maridaje:"Este champán se erige como compañero ideal para aperitivos, ostras, mariscos o quesos de pasta blanda. Su versatilidad en maridajes lo convierte en un invitado bienvenido en cualquier ocasión.",
       gusto:"Generoso, con una combinación única de suntuosidad frutal, burbujas finas y vivacidad cítrica. Se distingue por un sabor dominado por notas de bollería y frutas, con gran amplitud en boca y un final amable e intenso.",
       origen:"Épernay, Francia."
     }
@@ -618,7 +618,7 @@ var botella = [
       flag: true,
       uva:"Lambrusco Grasparossa, Malbo gentile.",
       aroma:"Afrutado, con reminiscencias de semilla de durazno.",
-      maridaje:"Ideal con platos picantes o condimentados,excelente con platos a base de carne de cerdo, y exquisita repostería.",
+      maridaje:"Ideal con platos picantes o condimentados, excelente con platos a base de carne de cerdo, y exquisita repostería.",
       gusto:"Sabor suave y placentero donde la nota dulce es bien balanceada con la acidez y la ligera efervescencia natural.",
       origen:"Emilia Romagna, Italia."
   }
@@ -630,9 +630,9 @@ var botella = [
         precioB: "no",
         flag: true,
         uva:"Viognier.",
-        aroma:"Mezcla aromatica a gardenia, nectar, manzana verde, toronja, pera y piña.",
+        aroma:"Mezcla aromática a gardenia, néctar, manzana verde, toronja, pera y piña.",
         maridaje:"Disfrutar con platillos que armonicen con su acidez como platillos mexicanos de mar con cítricos, tiraditos y ceviches. Apto para degustarse solo.",
-        gusto:"Dulsor 3/5, Acidez 4/5, Cuerpo 4/5, Alcohol 3/5.",
+        gusto:"Dulzor 3/5, Acidez 4/5, Cuerpo 4/5, Alcohol 3/5.",
         origen:"Valle de las Arsinas, Zacatecas, México."
       },
       {
@@ -648,8 +648,8 @@ var botella = [
       },
       {
         nombre: "Monte Xanic",
-        precioA: "$396.00",
-        precioB: "$105.00",
+        precioA: "$970.00",
+        precioB: "$245.00",
         flag: true,
         uva:"Chardonnay.",
         aroma:"En nariz es franco y de intensidad media. Los aromas frutales de ciruela amarilla, manzana, plátano, mandarina, flores de azahar y acacia se acompañan de una nota de hinojo y vainilla, lo que le confiere gran complejidad.",
@@ -664,7 +664,7 @@ var botella = [
         flag: true,
         uva:"Chardonay.",
         aroma:"Carácter frutal que evoca guayaba, mango, carambolo, durazno, manzana, piña y pera. Flores blancas, manzanilla y recuerdos de miel.",
-        maridaje:"Se recomienda con platillos de cocina oriental (china , vietnamita, japonesa, etc.) con tendencia agridulce o ligeramente picante, cocteles de Mariscos y postres a base de frutos rojos y tropicales.",
+        maridaje:"Se recomienda con platillos de cocina oriental (china, vietnamita, japonesa, etc.) con tendencia agridulce o ligeramente picante, cocteles de Mariscos y postres a base de frutos rojos y tropicales.",
         gusto:"Intenso recuerdo frutal y floral. Refrescante y con buena permanencia.",
         origen:"Valle de Parras, Coahuila, México."
       }
@@ -687,9 +687,9 @@ var botella = [
         precioB: "no",
         flag: true,
         uva:"Merlot.",
-        aroma:"Aroma franco e intenso, se perciben los frutos rojos, grosellas, moras y se aprecian los frutos secos tales como almendras y nueces.Se percibe un fino bouquet con notas de roble, cacao, vainilla, café tostado, caramelo y tabaco.",
+        aroma:"Aroma franco e intenso, se perciben los frutos rojos, grosellas, moras y se aprecian los frutos secos tales como almendras y nueces. Se percibe un fino bouquet con notas de roble, cacao, vainilla, café tostado, caramelo y tabaco.",
         maridaje:"Ensalada o entradas de betabel, pescados, mariscos y platillos confitados o caramelizados, platillos mexicanos como chalupas en salsa verde y postres.",
-        gusto:"Equilibrado, armonioso, que aporta frescura, llena de fruta la boca con presistencia y volumen, fácil de beber y con un amplio espectro de maridaje.",
+        gusto:"Equilibrado, armonioso, que aporta frescura, llena de fruta la boca con persistencia y volumen, fácil de beber y con un amplio espectro de maridaje.",
         origen:"Campo Real, Zacatecas, México."
       }
   ],
@@ -701,7 +701,7 @@ var botella = [
           flag: true,
           uva:"Chardonnay, Pinot Meunier, Pinot Noir.",
           aroma:"Intensidad vibrante de manzana verde, cítricos y matices minerales y florales. Aromas delicadamente vinosos, con toques de tilo y flor de vid.",
-          maridaje:"Este champagne se erige como compañero ideal para aperitivos, ostras, mariscos o quesos de pasta blanda. Su versatilidad en maridajes lo convierte en un invitado bienvenido en cualquier ocasión.",
+          maridaje:"Este champán se erige como compañero ideal para aperitivos, ostras, mariscos o quesos de pasta blanda. Su versatilidad en maridajes lo convierte en un invitado bienvenido en cualquier ocasión.",
           gusto:"Generoso, con una combinación única de suntuosidad frutal, burbujas finas y vivacidad cítrica. Se distingue por un sabor dominado por notas de bollería y frutas, con gran amplitud en boca y un final amable e intenso.",
           origen:"Épernay, Francia."
       },
@@ -712,25 +712,9 @@ var botella = [
           flag: true,
           uva:"Lambrusco Grasparossa, Malbo gentile.",
           aroma:"Afrutado, con reminiscencias de semilla de durazno.",
-          maridaje:"Ideal con platos picantes o condimentados,excelente con platos a base de carne de cerdo, y exquisita repostería.",
+          maridaje:"Ideal con platos picantes o condimentados, excelente con platos a base de carne de cerdo, y exquisita repostería.",
           gusto:"Sabor suave y placentero donde la nota dulce es bien balanceada con la acidez y la ligera efervescencia natural.",
           origen:"Emilia Romagna, Italia."
       }
-  ],
-  [//Vacio
-    {}
-  ],
-  [//Recomendaciones
-    {
-      nombre: "Moet & Chandon",
-      precioA: "$3,100.00",
-      precioB: "no",
-      flag: true,
-      uva:"Chardonnay, Pinot Meunier, Pinot Noir.",
-      aroma:"Intensidad vibrante de manzana verde, cítricos y matices minerales y florales. Aromas delicadamente vinosos, con toques de tilo y flor de vid.",
-      maridaje:"Este champagne se erige como compañero ideal para aperitivos, ostras, mariscos o quesos de pasta blanda. Su versatilidad en maridajes lo convierte en un invitado bienvenido en cualquier ocasión.",
-      gusto:"Generoso, con una combinación única de suntuosidad frutal, burbujas finas y vivacidad cítrica. Se distingue por un sabor dominado por notas de bollería y frutas, con gran amplitud en boca y un final amable e intenso.",
-      origen:"Épernay, Francia."
-    }
   ]
 ]
