@@ -95,7 +95,7 @@ main{
     font-size: 2rem;
 }
 .info div img{
-    width: 9%;
+    width: 2rem;
     filter: invert(.1);
 }
 @media only screen and (max-width: 600px) {
