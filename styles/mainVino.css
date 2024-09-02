@@ -16,6 +16,9 @@ body{
     "head"
     "main"
 }
+body #volver img{
+    filter: invert(2);
+}
 header{
     grid-area: head;
     color: rgba(101,41,51,1);
