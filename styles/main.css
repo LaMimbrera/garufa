@@ -17,7 +17,7 @@ body #volver{
     position: absolute;
     border-radius: 5rem;
     top: 50%;
-    height: clamp(1rem,20%,2rem);
+    height: clamp(1rem,20%,3rem);
     width: auto;
     z-index: 1;
 }
