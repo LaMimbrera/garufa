@@ -51,13 +51,12 @@ main div{
     color: rgba(225,219,208,255);
     cursor: pointer;
 }
-#mes{
-    background-color: rgba(192,45,60,1);;
+#recomendado{
+    background-color: rgba(192,45,60,1);
     text-align: center;
-    position: absolute;
-    height: 15%;
-    width: 48.5%;
-    bottom: .5rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 main a{
     text-decoration: none;
