@@ -1,147 +1,73 @@
 html{
-    height: 100%;
-    background-color: rgb(101, 41, 51);
-    background-color: rgba(225,219,208,1);
-    background-image: url(img/fondo.png);
-    color: white;
-    background-size: 10%;
-    background-position: center;
-}
-body{
-    margin: 0;
-    display: grid;
-    height: 100%;
-    grid-template-rows:10% 90%;
-    grid-template-areas:
-    "head"
-    "main"
-}
-body #volver img{
-    filter: invert(2);
-}
-header{
-    grid-area: head;
     color: rgba(101,41,51,1);
     background-color: rgba(225,219,208,1);
-    text-align: start;
-    border-bottom: 0.5rem solid rgba(101, 41, 51, 0);
 }
-header a{
-    margin: 0 10rem 0 0;
+body{
+    display: grid;
+    grid-template-areas: 
+    "heder"
+    "main"
+    "none";
+    grid-template-rows: 50% 25% 25%;
 }
-header a img{
-    justify-items: center;
-    height: 60%;
-    top: 300%;
+header {
+    position: absolute;
+    grid-area: header;
 }
-header p {
-    margin: 0;
-    height: 100%;
+header p{
+    display: grid;
+    grid-template-areas: 
+    "foto title"
+    "foto none";
 }
-header img{
-    text-align: end;
-    margin: 0 10rem 0 0;
-    height: 100%;
+header p image{
+    grid-area: foto;
 }
-header strong{
+header p stronge{
+    grid-area: title;
+    margin: 5rem 0 0 0;
+    font-family: Montserrat;
     font-size: 2rem;
-    margin: 2.5% 0 0 0;
+}
+body #volver{
+    top: 40%;
 }
 main{
-    display: grid;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    background-color: rgba(192,45,60,1);
+    border: .2rem solid rgba(101,41,51,1);
     grid-area: main;
-    grid-template-rows: 100%;
-    background-image: url("../img/fondo.png");
-    background-color: rgba(170, 72, 88, 0.295);
-    background-size: 10em;
-}
-.card{
-    margin: 0;
-    padding: 0;
     display: grid;
-    grid-template-columns: 60% 40%;
     grid-template-rows: 100%;
-    grid-template-areas: 
-    "info foto";
-    background-color: rgba(0, 0, 0, 0.432);
-    color: rgba(225,219,208,1);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    justify-content: center;
+    grid-template-columns: repeat(3,30%);
 }
 .card p{
-    grid-area: foto;
-    margin: 0 auto;
-    height: 97%;
-}
-.card ul{
-    align-content: center;
-    margin: 0 0 0 2rem;
-    overflow-y: scroll;
-    list-style: none;
-    grid-area: info;
-    font-size: 1.1rem;
-    font-family: Montserrat;
-    scrollbar-width: none;
-}
-.card ul strong{
-    color: rgb(73, 23, 32);
-    font-size: 2rem;
-    border-radius: 1.5rem;
-    padding: 0 0 0 .5rem;
-    margin: 0 .5rem 0 0;
-    font-family: Montserrat;
-}
-.card img{
-    filter: brightness(.8);
-    margin: 0;
-    height: 100%;
+    border-radius: 1rem;
+    height: 90%;
     width: auto;
+}
+.card p img{
+    filter:invert(1) brightness(10);
     grid-area: foto;
+    margin: 0;
+    height:100%;
+    width: auto;
 }
 @media only screen and (max-width: 600px) {
     body{
-        grid-template-rows:15% 85%;
+        grid-template-rows: 50% 15% 30%;
     }
     header p{
-        display: grid;
-        grid-template-areas:
-        "foto"
-        "title";
-        grid-template-rows: 75% 25%;
+        grid-template-areas: 
+        "foto foto"
+        "title title";
     }
-    header p img{
-        grid-area: foto;
-        width: 40%;
-        height: auto;
+    .card p img{
+        height: 85%;
     }
-    header strong{
-        grid-area: title;
-        width: 100%;
-        height: auto;
-        font-size: 1.5rem;
-        margin: 0 0 0 2rem;
-    }
-    header a {
-        position: relative;
-        width: 20%;
-        top: 15rem;
-    }
-    .card{
-        grid-template-columns: 50% 50%;
-    }
-    .card ul{
-        margin: 0 ;
-        font-size: .8rem;
-        scrollbar-width: none;
-    }
-    .card ul strong{
-        margin: 0 ;
-        font-size: 1.5rem;
-    }
-    .card img{
-        margin: 0 0 0 0;
-        height: 100%;
-        width: auto;
+    header p stronge {
+        margin: 0;
     }
 }
