@@ -1,0 +1,57 @@
+html{
+    margin: 0;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+body{
+    height: 100%;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+header{
+    grid-area: head;
+}
+body #volver{
+    position: absolute;
+    border-radius: 5rem;
+    top: 50%;
+    height: clamp(1rem,20%,3rem);
+    width: auto;
+    z-index: 1;
+}
+body #volver img{
+    position: absolute;
+    filter: invert(.3);
+    height: 100%;
+    z-index: 3;
+}
+main{
+    grid-area: main;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    scrollbar-width: none;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat/static/Montserrat-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Baskerville';
+    src: url('../Fonts/Baskerville/LibreBaskerville-Regular.ttf');
+}
+@font-face {
+    font-family: 'Sacramento';
+    src: url('../Fonts/Sacramento/Sacramento-Regular.ttf');
+}
+@media only screen and (max-width: 500px) {
+
+    header p img{
+        width: 100%;
+    }
+    header p stronge{
+        padding: 0 0 0 1rem;
+    }
+}

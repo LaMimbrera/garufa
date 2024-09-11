@@ -1,0 +1,80 @@
+html{
+    color: rgba(101,41,51,1);
+    background-color: rgba(225,219,208,1);
+}
+body{
+    display: grid;
+    text-align: center;
+    height: 100%;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-areas:
+    "head head head"
+    "A main B"
+}
+header{
+    border-bottom:1rem solid #652933;
+}
+header img{
+    height: 100%;
+}
+.side{
+    background-image: url("../img/fondo.png");
+    background-size: 5.5rem;
+}
+#A{
+    grid-area: A;
+}
+#B{
+    grid-area: B;
+}
+main{
+    font-family: Montserrat;
+    grid-auto-flow: row;
+    grid-auto-rows: 20%;
+    overflow: hidden;
+    overflow-y: scroll;
+    align-items: center;
+    display: grid;
+    color: rgba(101,41,51,1);
+    background-color: rgba(225,219,208,1);
+}
+main div{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    margin: 0 clamp(.1rem,1vw,1rem);
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    background-color: rgba(101,41,51,255);
+    color: rgba(225,219,208,255);
+    cursor: pointer;
+}
+#recomendado{
+    background-color: rgba(192,45,60,1);
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+main a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    body{
+        grid-template-columns: 20% 60% 20%;
+    }
+    .side{
+        background-image: url("../img/fondo.png");
+        background-size: 3rem;
+    }
+    main{
+        grid-auto-rows: 15%;
+    }
+    main div{
+        font-size: 1.6rem;
+    }
+}
