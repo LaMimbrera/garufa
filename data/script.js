@@ -343,7 +343,7 @@ var botella = [
       //Viento Negro
       {
         nombre: "Oak Reserve",
-        precioA: "$600.00",
+        precioA: "$1000.00",
         precioB: "no",
         flag: true,
         uva: "Cabernet Sauvinong, Petit Verdot y Cabernet Franc.",
@@ -357,7 +357,7 @@ var botella = [
       },
       {
         nombre: "Viento Negro",
-        precioA: "$600.00",
+        precioA: "$945.00",
         precioB: "no",
         flag: true,
         uva: "Cabernet Sauvinong, Cabernet Franc y Merlot.",
