@@ -54,12 +54,12 @@ function botellas(a, b) {
         ` remove" onclick = "this.classList.add('remove');this.classList.remove('active');document.querySelector('.h` +
         i +
         `').classList.add('active')">
-        <a class = "precio"><img class="icon" src="./img/botella.png"><p>(750ml) <stronge>` +
+        <a class = "precio"><img class="icon" src="./img/botella.png"><p> <stronge>` +
         (a == 1 ? botella[a][b][i].precioA : botella[a][i].precioA) +
         `<stronge><br></p></a>
         ` +
         ((a == 1 ? botella[a][b][i].precioB : botella[a][i].precioB) != "no"
-          ? `<a class = "precio"><img class="icon" src="./img/copa.png"><p>(375ml)  <stronge>` +
+          ? `<a class = "precio"><img class="icon" src="./img/copa.png"><p>  <stronge>` +
             (a == 1 ? botella[a][b][i].precioB : botella[a][i].precioB) +
             `<stronge></p></a>`
           : "") +
