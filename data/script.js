@@ -919,6 +919,20 @@ var botella = [
         "Intenso recuerdo frutal y floral. Refrescante y con buena permanencia.",
       origen: "Valle de Parras, Coahuila, México.",
     },
+    {
+      nombre: "Raiz de Plata",
+      precioA: "$900.00",
+      precioB: "no",
+      flag: true,
+      uva: "Semillon 100%.",
+      aroma:
+        "Persistente en aromas cítricos, manzana verde, guayaba y piña.",
+      maridaje:
+        "",
+      gusto:
+        "Cuerpo ligero sabores como pasto seco, piedra mojada y frutas cítricas.",
+      origen: "Valle de Barranquillas, Zacatecas, México.",
+    },
   ],
   [
     //Rosados
