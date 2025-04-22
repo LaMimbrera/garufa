@@ -277,18 +277,18 @@ var botella = [
           "Ataque suave, acidez balanceada, presencia de frutos rojos maduros, vainilla, notas balsámicas como el mentol.",
         origen: "Campo Real, Zacatecas, México.",
       },
-      {
+       {
         nombre: "Nebbiolo",
         precioA: "$1,020.00",
         precioB: "no",
         flag: true,
-        uva: "Merlot.",
+        uva: "Nebbiolo.",
         aroma:
-          "Con un aroma franco e intenso, se perciben en él los frutos rojos maduros, coco, vainilla y pimientos verdes.",
+          "Buena intensidad aromática con notas a frutos rojos, cereza, arcilla, rosa, vainilla y ligeras notas balsámicas.",
         maridaje:
-          "Su sólida estructura le permite acompañar las carnes rojas, cabrito y cordero, pollo a la ciruela, pastas en base de hongos.",
+          "Ideal para acompañar platillos mexicanos e italianos. Carne, pimienta, hamburguesas, cordero, hongos y trufa.",
         gusto:
-          "Ataque suave, acidez balanceada, presencia de frutos rojos maduros, vainilla, notas balsámicas como el mentol.",
+          "Ligero y fluído en boca, de tanino aterciopelado y acidez bien marcada. Con notas a frutos rojos, cereza y anís.",
         origen: "Campo Real, Zacatecas, México.",
       },
       {
