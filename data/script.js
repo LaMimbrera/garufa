@@ -278,6 +278,20 @@ var botella = [
         origen: "Campo Real, Zacatecas, México.",
       },
       {
+        nombre: "Nebbiolo",
+        precioA: "$1,020.00",
+        precioB: "no",
+        flag: true,
+        uva: "Merlot.",
+        aroma:
+          "Con un aroma franco e intenso, se perciben en él los frutos rojos maduros, coco, vainilla y pimientos verdes.",
+        maridaje:
+          "Su sólida estructura le permite acompañar las carnes rojas, cabrito y cordero, pollo a la ciruela, pastas en base de hongos.",
+        gusto:
+          "Ataque suave, acidez balanceada, presencia de frutos rojos maduros, vainilla, notas balsámicas como el mentol.",
+        origen: "Campo Real, Zacatecas, México.",
+      },
+      {
         nombre: "Syrah",
         precioA: "$1,360.00",
         precioB: "no",
