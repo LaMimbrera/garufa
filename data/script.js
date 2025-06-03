@@ -1,4 +1,5 @@
 let menuC = [
+   { name: "De la casa", label : "vino_de_la_casa" },
   { name: "Mixologia", label : "vino_Recomendado" },
   { name: "Zacatecanos", label: "vinos_Zacatecanos" },
   { name: "Mexicanos", label: "vinos_mexicanos" },
@@ -30,16 +31,16 @@ function crear() {
 }
 function botellas(a, b) {
   document.getElementById("body").innerHTML =
-    `<link rel="stylesheet" href="./styles/`+(a==0 ? "recomendado":"mainBotellas")+`.css">
-    <a id= "volver" onclick="`+(a == 1 ? "categoria(1)" : "crear()")+`"><img src="img/volver.png"></a>
-  <style> main{grid-template-columns: repeat(`+(a == 1 ? botella[a][b].length : botella[a].length)+`,`+(botella[a].length > 3 ? "35" : 100 / botella[a].length)+`%)}</style>
-  <header><p><img src="./img/logoGarufa.png"><stronge><img src="./img/flags/0`+(a > 8 ? 8 : a)+`.png"><br>`+(a == 1 ? zac[b].name : menuC[a].name)+`</stronge></p></header>
+    `<link rel="stylesheet" href="./styles/`+(a==1 ? "recomendado":"mainBotellas")+`.css">
+    <a id= "volver" onclick="`+(a == 2 ? "categoria(2)" : "crear()")+`"><img src="img/volver.png"></a>
+  <style> main{grid-template-columns: repeat(`+(a == 2 ? botella[a][b].length : botella[a].length)+`,`+(botella[a].length > 3 ? "35" : 100 / botella[a].length)+`%)}</style>
+  <header><p><img src="./img/logoGarufa.png"><stronge><img src="./img/flags/0`+(a > 8 ? 8 : a)+`.png"><br>`+(a == 2 ? zac[b].name : menuC[a].name)+`</stronge></p></header>
   <main id ="main">`;
-  for (let i = 0;i < (a == 1 ? botella[a][b].length : botella[a].length);i++){
-    if ((a == 1 ? botella[a][b][i].flag : botella[a][i].flag) == true) {
+  for (let i = 0;i < (a == 2 ? botella[a][b].length : botella[a].length);i++){
+    if ((a == 2 ? botella[a][b][i].flag : botella[a][i].flag) == true) {
       document.getElementById("main").innerHTML+=
-      `<div class = "card"><p `+(a == 0 ? " " : `onclick="info(`+a+`,`+b+`,`+i+`)"`)+`><img src='./img/`+menuC[a].label +
-(a==1?"/"+zac[b].label+`/0`+(i+1):"/0"+(i+1))+
+      `<div class = "card"><p `+(a == 1 ? " " : `onclick="info(`+a+`,`+b+`,`+i+`)"`)+`><img src='./img/`+menuC[a].label +
+(a==2?"/"+zac[b].label+`/0`+(i+1):"/0"+(i+1))+
         `.png'></p>
       <div class = "info">
         <h2 class = "h` +
@@ -47,20 +48,20 @@ function botellas(a, b) {
         ` active" onclick="this.classList.add('remove');this.classList.remove('active');document.querySelector('.lista` +
         i +
         `').classList.remove('remove')">` +
-        (a == 1 ? botella[a][b][i].nombre : botella[a][i].nombre) +
+        (a == 2 ? botella[a][b][i].nombre : botella[a][i].nombre) +
         `</h2>
       <div class = "lista` +
         i +
         ` remove" onclick = "this.classList.add('remove');this.classList.remove('active');document.querySelector('.h` +
         i +
         `').classList.add('active')">
-        <a class = "precio"><img class="icon" src="./img/`+(a == 0 ? "copa" : `botella`)+`.png"><p> <stronge>` +
-        (a == 1 ? botella[a][b][i].precioA : botella[a][i].precioA) +
+        <a class = "precio"><img class="icon" src="./img/`+(a == 1 ? "copa" : `botella`)+`.png"><p> <stronge>` +
+        (a == 2 ? botella[a][b][i].precioA : botella[a][i].precioA) +
         `<stronge><br></p></a>
         ` +
-        ((a == 1 ? botella[a][b][i].precioB : botella[a][i].precioB) != "no"
+        ((a == 2 ? botella[a][b][i].precioB : botella[a][i].precioB) != "no"
           ? `<a class = "precio"><img class="icon" src="./img/copa.png"><p>  <stronge>` +
-            (a == 1 ? botella[a][b][i].precioB : botella[a][i].precioB) +
+            (a == 2 ? botella[a][b][i].precioB : botella[a][i].precioB) +
             `<stronge></p></a>`
           : "") +
         `
@@ -70,7 +71,7 @@ function botellas(a, b) {
   }
 }
 function categoria(a) {
-  if (parseInt(a) == 1) {
+  if (parseInt(a) == 2) {
     document.getElementById("body").innerHTML =
       `<a id= "volver" onclick="crear()"><img src="./img/volver.png"></a><link rel="stylesheet" href="./styles/mainZac.css"><header><p><img src="./img/logoGarufa.png"><stronge>` +
       menuC[a].name +
@@ -132,6 +133,21 @@ function info(a, b, c) {
   `;
 }
 var botella = [
+ [
+  {
+       nombre: "GARUFA",
+        precioA: "$720.00",
+        precioB: "185.00",
+        flag: true,
+        uva: "Merlot, Cabernet Suavignon y Cabernet Franc.",
+        aroma:
+          "",
+        maridaje:
+          "",
+        gusto: "",
+        origen: "",
+      },
+   ],
   [
     {
       nombre: "GIN MARACUYA",
@@ -277,7 +293,7 @@ var botella = [
           "Ataque suave, acidez balanceada, presencia de frutos rojos maduros, vainilla, notas balsámicas como el mentol.",
         origen: "Campo Real, Zacatecas, México.",
       },
-       {
+      {
         nombre: "Nebbiolo",
         precioA: "$1,020.00",
         precioB: "no",
