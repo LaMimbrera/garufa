@@ -135,17 +135,17 @@ function info(a, b, c) {
 var botella = [
  [
   {
-       nombre: "GARUFA",
+       nombre: "Garufa Mezcla Bordeleza",
         precioA: "$720.00",
         precioB: "185.00",
         flag: true,
-        uva: "Merlot, Cabernet Suavignon y Cabernet Franc.",
+        uva: "Merlot(60%), Cabernet Suavignon(20%) y Cabernet Franc(20%).",
         aroma:
-          "",
+          "Despunta una frescura implacable, abriéndose con notas que recuerdan a frutas silvestres y alguna roja remarcada por una madera muy fina y respetuosa de fondo, que alegra su fragancia.",
         maridaje:
-          "",
-        gusto: "",
-        origen: "",
+          "Esta mezcla se recomienda para cortes de carne, pastas y cremas.",
+        gusto: "Elegante como el terciopelo. Notas de vainilla gracias a sus ocho meses en barrica de roble frances. Se pueden percibir frutos rojos que cubriran todo el paladar.",
+        origen: "Valle de Guadalupe, Baja California, México.",
       },
    ],
   [
