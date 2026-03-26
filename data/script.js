@@ -139,13 +139,13 @@ var botella = [
         precioA: "$720.00",
         precioB: "185.00",
         flag: true,
-        uva: "Merlot, Cabernet Suavignon y Cabernet Franc.",
+        uva: "Merlot(40%), Cabernet Suavignon(30%) y Cabernet Franc(30%).",
         aroma:
-          "",
+          "Despunte de frescura implacable, abriéndose con notas que recuerdan a frutas silvestres y alguna roja remarcada por madera muy fina y respetuosa de fondo, que alegra su fragancia.",
         maridaje:
           "",
-        gusto: "",
-        origen: "",
+        gusto: "Elegante como el terciopelo. Notas de vainilla gracias a sus 8 meses en barrica de roble francés. Percibirás frutos rojos que cubrirán todo su paladar.",
+        origen: "Valle de Guadalupe, Baja California, México.",
       },
    ],
   [ //1 mixologia
@@ -944,7 +944,7 @@ var botella = [
       nombre: "Raiz de Plata",
       precioA: "$900.00",
       precioB: "no",
-      flag: true,
+      flag: false,
       uva: "Semillon 100%.",
       aroma:
         "Persistente en aromas cítricos, manzana verde, guayaba y piña.",
