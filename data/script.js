@@ -11,7 +11,7 @@ let menuC = [
   { name: "Blancos", label: "vinos_blancos" },
   { name: "Rosados", label: "vinos_rosados" },
   { name: "Espumosos", label: "vinos_espumosos" },
-];
+]; 
 let zac = [
   { name: "Lopez Rosso", label: "LR" },
   { name: "Tierra Adentro", label: "TA" },
@@ -24,8 +24,8 @@ function crear() {
   <main id="main"></main>`;
   document.getElementById("body").innerHTML += `<div class="side" id="A"></div>`;
   for (let i = 0; i < menuC.length; i++) {
-    document.getElementById("main").innerHTML +=
-      `<div `+(i==0 ? 'id="recomendado"':"")+`onclick = "categoria(` + i + `)">` + menuC[i].name + `</div>`;
+    document.getElementById("main").innerHTML +=(i==1 ? "" :
+      `<div `+(i==0 ? 'id="recomendado"':"")+`onclick = "categoria(` + i + `)">` + menuC[i].name + `</div>`);
   }
   document.getElementById("body").innerHTML += `<div class="side" id="B"></div>`;
 }
@@ -95,34 +95,34 @@ function info(a, b, c) {
     `
     <link rel="stylesheet" href="./styles/mainVino.css">
     <a id= "volver" onclick=` +
-    (a == 1 ? "botellas(" + a + "," + b + ")" : "botellas(" + a + ",2)") +
+    (a == 2 ? "botellas(" + a + "," + b + ")" : "botellas(" + a + ",2)") +
     `><img src="./img/volver.png"></a>
     <header>  
       <p><img src="./img/logoGarufa.png"><strong>` +
-    (a == 1 ? botella[a][b][c].nombre : botella[a][c].nombre) +
+    (a == 2 ? botella[a][b][c].nombre : botella[a][c].nombre) +
     `</strong></p>
     </header>
     <main>
     <div class="card">
         <ul>
             <li><p><strong>Uva: </strong>` +
-    (a == 1 ? botella[a][b][c].uva : botella[a][c].uva) +
+    (a == 2 ? botella[a][b][c].uva : botella[a][c].uva) +
     `</p></li>
             <li><p><strong>Aroma: </strong>` +
-    (a == 1 ? botella[a][b][c].aroma : botella[a][c].aroma) +
+    (a == 2 ? botella[a][b][c].aroma : botella[a][c].aroma) +
     `</p></li>
             <li><p><strong>Maridaje: </strong>` +
-    (a == 1 ? botella[a][b][c].maridaje : botella[a][c].maridaje) +
+    (a == 2 ? botella[a][b][c].maridaje : botella[a][c].maridaje) +
     `</p></li>
             <li><p><strong>Gusto: </strong>` +
-    (a == 1 ? botella[a][b][c].gusto : botella[a][c].gusto) +
+    (a == 2 ? botella[a][b][c].gusto : botella[a][c].gusto) +
     `</p></li>
             <li><p><strong>Origen: </strong>` +
-    (a == 1 ? botella[a][b][c].origen : botella[a][c].origen) +
+    (a == 2 ? botella[a][b][c].origen : botella[a][c].origen) +
     `</p></li>
         </ul>
         <p><img src="./img` +
-    (a == 1
+    (a == 2
       ? "/vinos_Zacatecanos/" + zac[b].label + "/"
       : "/" + menuC[a].label + "/") +
     `0` +
@@ -133,22 +133,22 @@ function info(a, b, c) {
   `;
 }
 var botella = [
- [
+ [//0 De la casa
   {
-       nombre: "Garufa Mezcla Bordeleza",
+       nombre: "GARUFA",
         precioA: "$720.00",
         precioB: "185.00",
         flag: true,
-        uva: "Merlot(60%), Cabernet Suavignon(20%) y Cabernet Franc(20%).",
+        uva: "Merlot, Cabernet Suavignon y Cabernet Franc.",
         aroma:
-          "Despunta una frescura implacable, abriéndose con notas que recuerdan a frutas silvestres y alguna roja remarcada por una madera muy fina y respetuosa de fondo, que alegra su fragancia.",
+          "",
         maridaje:
-          "Esta mezcla se recomienda para cortes de carne, pastas y cremas.",
-        gusto: "Elegante como el terciopelo. Notas de vainilla gracias a sus ocho meses en barrica de roble frances. Se pueden percibir frutos rojos que cubriran todo el paladar.",
-        origen: "Valle de Guadalupe, Baja California, México.",
+          "",
+        gusto: "",
+        origen: "",
       },
    ],
-  [
+  [ //1 mixologia
     {
       nombre: "GIN MARACUYA",
       precioA: "$142.00",
@@ -180,9 +180,8 @@ var botella = [
       flag: true
     },
  ],
-  [//Zacatecanos
-    [
-      //Lopez Rosso
+  [//2 Zacatecanos
+    [//0 Lopez Rosso
       {
         nombre: "Merlot",
         precioA: "$1,320.00",
@@ -223,8 +222,7 @@ var botella = [
         origen: "Valle de las Arcinas, Zacatecas, México.",
       },
     ],
-    [
-      //Tierra Adentro
+    [//1 Tierra Adentro
       {
         nombre: "Blend Trivarietal",
         precioA: "$1,020.00",
@@ -375,8 +373,7 @@ var botella = [
         origen: "Campo Real, Zacatecas, México.",
       },
     ],
-    [
-      //Viento Negro
+    [//2 Viento Negro
       {
         nombre: "Oak Reserve",
         precioA: "$1,000.00",
@@ -407,7 +404,7 @@ var botella = [
       },
     ],
   ],
-  [//Mexicanos 
+  [//3 Mexicanos 
     {
       nombre: "Domecq XA",
       precioA: "$405.00",
@@ -561,7 +558,7 @@ var botella = [
       origen: "Valle de Monte Grande, Aguascalientes, México.",
     },
     {
-      nombre: "XOLO",
+      nombre: "XOLO Itzcuintle",
       precioA: "$2,190.00",
       precioB: "no",
       flag: true,
@@ -572,8 +569,7 @@ var botella = [
       origen: "Valle de Guadalupe, Baja California, México.",
     },
   ],
-  [
-    //Argentinos
+  [//4 Argentinos
     {
       nombre: "Norton",
       precioA: "$978.00",
@@ -652,8 +648,7 @@ var botella = [
       origen: "Valle de Uco, Mendoza, Argentina.",
     },
   ],
-  [
-    //Chilenos
+  [//5 Chilenos
     {
       nombre: "Concha y Toro",
       precioA: "$366.00",
@@ -735,8 +730,7 @@ var botella = [
       origen: "Valle del Maipo, Chile.",
     },
   ],
-  [
-    //Españoles
+  [//6 Españoles
     {
       nombre: "Cune",
       precioA: "$975.00",
@@ -859,8 +853,7 @@ var botella = [
       origen: "Ribera del Duero, España.",
     },
   ],
-  [
-    //Franceses
+  [//7 Franceses
     {
       nombre: "Moet & Chandon",
       precioA: "$3,100.00",
@@ -876,8 +869,7 @@ var botella = [
       origen: "Épernay, Francia.",
     },
   ],
-  [
-    //Italianos
+  [//8 Italianos
     {
       nombre: "Lambrusco Vibrante",
       precioA: "$567.00",
@@ -892,8 +884,7 @@ var botella = [
       origen: "Emilia Romagna, Italia.",
     },
   ],
-  [
-    //Blancos
+  [//9 Blancos
     {
       nombre: "Viognier",
       precioA: "$790.00",
@@ -964,8 +955,7 @@ var botella = [
       origen: "Valle de Barranquillas, Zacatecas, México.",
     },
   ],
-  [
-    //Rosados
+  [//10 Rosados
     {
       nombre: "La Cetto Zinfandel",
       precioA: "$414.00",
@@ -993,8 +983,7 @@ var botella = [
       origen: "Campo Real, Zacatecas, México.",
     },
   ],
-  [
-    //Espumosos
+  [//11 Espumosos
     {
       nombre: "Moet & Chandon",
       precioA: "$3,100.00",
