@@ -47,11 +47,11 @@ main{
     border-radius: 1rem;
     height: 90%;
     width: auto;
+    text-align: center;
 }
 .card p img{
     filter:invert(1) brightness(10);
     grid-area: foto;
-    margin: 0;
     height:100%;
     width: auto;
 }
