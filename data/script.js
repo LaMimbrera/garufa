@@ -226,7 +226,7 @@ var botella = [
       {
         nombre: "Blend Trivarietal",
         precioA: "$1,020.00",
-        precioB: "$260.00",
+        precioB: "$263.00",
         flag: true,
         uva: "Syrah(50%), Merlot(40%) y Tempranillo(10%).",
         aroma:
@@ -254,7 +254,7 @@ var botella = [
       {
         nombre: "Mezcla Bordelesa",
         precioA: "$1,090.00",
-        precioB: "$275.00",
+        precioB: "$279.00",
         flag: true,
         uva: "Cabernet Sauvignon(65%), Malbec(25%) y Merlot(10%).",
         aroma: "Aromas que van del café a la vainilla, regaliz y canela.",
@@ -280,7 +280,7 @@ var botella = [
       {
         nombre: "Merlot",
         precioA: "$1,360.00",
-        precioB: "$350.00",
+        precioB: "$353.00",
         flag: true,
         uva: "Merlot.",
         aroma:
@@ -321,7 +321,7 @@ var botella = [
       {
         nombre: "Malbec",
         precioA: "$1,360.00",
-        precioB: "$350.00",
+        precioB: "$353.00",
         flag: true,
         uva: "Malbec.",
         aroma:
@@ -573,7 +573,7 @@ var botella = [
     {
       nombre: "Norton",
       precioA: "$978.00",
-      precioB: "$250.00",
+      precioB: "$251.00",
       flag: true,
       uva: "Malbec.",
       aroma:
@@ -652,7 +652,7 @@ var botella = [
     {
       nombre: "Concha y Toro",
       precioA: "$366.00",
-      precioB: "$95.00",
+      precioB: "$97.00",
       flag: true,
       uva: "Cabernet Sauvignon.",
       aroma:
@@ -676,7 +676,7 @@ var botella = [
     {
       nombre: "Santa Digna",
       precioA: "$681.00",
-      precioB: "$175.00",
+      precioB: "$179.00",
       flag: true,
       uva: "Cabernet Sauvignon.",
       aroma:
@@ -748,7 +748,7 @@ var botella = [
     {
       nombre: "Gran Sangre de Toro",
       precioA: "$900.00",
-      precioB: "$230.00",
+      precioB: "$235.00",
       flag: true,
       uva: "Garnacha, Mazuelo y Syrah.",
       aroma:
@@ -760,7 +760,7 @@ var botella = [
     },
     {
       nombre: "Sangre de Toro 1/2",
-      precioA: "$363.00",
+      precioA: "$382.00",
       precioB: "no",
       flag: true,
       uva: "Garnacha, Mazuelo y Syrah.",
@@ -773,8 +773,8 @@ var botella = [
     },
     {
       nombre: "Atrium",
-      precioA: "$1,080.00",
-      precioB: "$275.00",
+      precioA: "$1,090.00",
+      precioB: "$289.00",
       flag: true,
       uva: "Merlot.",
       aroma:
@@ -787,7 +787,7 @@ var botella = [
     {
       nombre: "La Planta",
       precioA: "$1,170.00",
-      precioB: "$295.00",
+      precioB: "$301.00",
       flag: true,
       uva: "Tempranillo.",
       aroma:
@@ -856,7 +856,7 @@ var botella = [
   [//7 Franceses
     {
       nombre: "Moet & Chandon",
-      precioA: "$3,100.00",
+      precioA: "$3,400.00",
       precioB: "no",
       flag: true,
       uva: "Chardonnay, Pinot Meunier, Pinot Noir.",
@@ -873,7 +873,7 @@ var botella = [
     {
       nombre: "Lambrusco Vibrante",
       precioA: "$567.00",
-      precioB: "$145.00",
+      precioB: "$150.00",
       flag: true,
       uva: "Lambrusco Grasparossa, Malbo gentile.",
       aroma: "Afrutado, con reminiscencias de semilla de durazno.",
@@ -986,7 +986,7 @@ var botella = [
   [//11 Espumosos
     {
       nombre: "Moet & Chandon",
-      precioA: "$3,100.00",
+      precioA: "$3,400.00",
       precioB: "no",
       flag: true,
       uva: "Chardonnay, Pinot Meunier, Pinot Noir.",
@@ -1001,7 +1001,7 @@ var botella = [
     {
       nombre: "Lambrusco Vibrante",
       precioA: "$567.00",
-      precioB: "$145.00",
+      precioB: "$150.00",
       flag: true,
       uva: "Lambrusco Grasparossa, Malbo gentile.",
       aroma: "Afrutado, con reminiscencias de semilla de durazno.",
